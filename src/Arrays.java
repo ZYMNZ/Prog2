@@ -236,15 +236,22 @@ public class Arrays {
 
             int arr[][] = new int[3][4];
             int sum = 0;
-
-        for (int i = 0; i < 4; i++) {
-            for (int j = 0; j < 3; j++) {
+            int i,j;
+        for ( i = 0; i < 4; i++) {
+            sum = 0;
+            for ( j = 0; j < 3; j++) {
                 System.out.println("Enter a num: ");
-                arr[i][j] = sc.nextInt();
-                sum+= arr[i][j];
+                arr[j][i] = sc.nextInt();
+                sum+= arr[j][i];
 
             }
             System.out.println("The sum by colomn: " + sum);
+        }
+        for(i=0;i<3;i++) {
+            for(j=0;j<4;j++){
+                System.out.print(arr[i][j] + " ");
+            }
+            System.out.println();
         }
 
 
