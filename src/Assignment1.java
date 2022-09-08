@@ -36,11 +36,14 @@ public class Assignment1 {
             arr[i] = sc.nextInt();
         }
         int temp = 0;
-        for (int i = 0; i < arr.length; i++) {
-            System.out.println("- Cycle " + (i+1) + ":");
-            temp = arr[i];
-            arr[i] = arr[i+1];
-            arr[i+1] = temp;
+        for (int i = 0; i < arr.length - 1; i++) {
+            System.out.println("- Cycle " + (i+1) + ": ");
+            for (int j = 0; j <= arr.length; j++) {
+                temp = arr[i];
+                arr[i] = arr[i+1];
+                arr[i+1] = temp;
+            }
+
         }
         for(int i=0;i<arr.length;i++) System.out.print(arr[i] + ",");
 
@@ -53,7 +56,7 @@ public class Assignment1 {
 //        for ( i = 0; i < 3 ; i++) {
 //            for (j = 0; j < 5 ; j++) {
 //                arr[i][j] = sc.nextInt();
-//                sum+=arr[i][j];
+//
 //            }
 //        }
 //        for(i=0;i<3;i++) {

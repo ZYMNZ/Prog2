@@ -234,26 +234,73 @@ public class Arrays {
 //-------------------------------------//
 
 
-            int arr[][] = new int[3][4];
-            int sum = 0;
-            int i,j;
-        for ( i = 0; i < 4; i++) {
-            sum = 0;
-            for ( j = 0; j < 3; j++) {
-                System.out.println("Enter a num: ");
-                arr[j][i] = sc.nextInt();
-                sum+= arr[j][i];
+//            int arr[][] = new int[3][4];
+//            int sum = 0;
+//            int i,j;
+//        for ( i = 0; i < 4; i++) {
+//            sum = 0;
+//            for ( j = 0; j < 3; j++) {
+//                System.out.println("Enter a num: ");
+//                arr[j][i] = sc.nextInt();
+//                sum+= arr[j][i];
+//
+//            }
+//            System.out.println("The sum by colomn: " + sum);
+//        }
+//        for(i=0;i<3;i++) {
+//            for(j=0;j<4;j++){
+//                System.out.print(arr[i][j] + " ");
+//            }
+//            System.out.println();
+//        }
 
-            }
-            System.out.println("The sum by colomn: " + sum);
-        }
-        for(i=0;i<3;i++) {
-            for(j=0;j<4;j++){
-                System.out.print(arr[i][j] + " ");
-            }
-            System.out.println();
-        }
+        //-------------------------------------//
+//
+//        int arr[][] = new int[3][4];
+//        for (int i = 0; i < 3; i++) {
+//            for (int j = 0; j < 4; j++) {
+//                System.out.println("Enter a num: ");
+//                arr[i][j] = sc.nextInt();
+//            }
+//        }
+//        int i = 0,j = 0;
+//        System.out.println( "Enter the num u need to find: ");
+//        int num = sc.nextInt();
+//        int flag = 0;
+//        for ( i = 0; i < 3; i++) {
+//            for (j = 0; j < 4; j++) {
+//                if(num == arr[i][j]){
+//                    flag ++;
+//                    break;
+//                }
+//            }
+//        }
+//        if(flag == 0) System.out.println("not found");
+//        else System.out.println("Occurence " + flag + " found it: " + num + " in row " + (i+1) +" in colomn " + (j+1));
 
+
+        //-------------------------------------//
+
+//        int arr[][] = new int[4][4];
+//        for (int i = 0; i < 4; i++) {
+//            for (int j = 0; j < 4; j++) {
+//                System.out.println("Enter a num: ");
+//                arr[i][j] = sc.nextInt();
+//            }
+//        }
+//        for (int i = 0; i < 4; i++) {
+//            for (int j = 0; j < 4; j++) {
+//                int temp = arr[i][j];
+//                arr[i][j] = arr[j][i];
+//                arr[j][i] = temp;
+//            }
+//        }
+//        for(int i=0;i<arr.length;i++) {
+//            for(int j=0;j<arr.length;j++){
+//                System.out.print(arr[i][j] + " ");
+//            }
+//            System.out.println();
+//        }
 
     }
 
