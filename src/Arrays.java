@@ -281,26 +281,28 @@ public class Arrays {
 
         //-------------------------------------//
 
-//        int arr[][] = new int[4][4];
-//        for (int i = 0; i < 4; i++) {
-//            for (int j = 0; j < 4; j++) {
-//                System.out.println("Enter a num: ");
-//                arr[i][j] = sc.nextInt();
-//            }
-//        }
-//        for (int i = 0; i < 4; i++) {
-//            for (int j = 0; j < 4; j++) {
-//                int temp = arr[i][j];
-//                arr[i][j] = arr[j][i];
-//                arr[j][i] = temp;
-//            }
-//        }
-//        for(int i=0;i<arr.length;i++) {
-//            for(int j=0;j<arr.length;j++){
-//                System.out.print(arr[i][j] + " ");
-//            }
-//            System.out.println();
-//        }
+        int arr[][] = new int[4][4];
+        for (int i = 0; i < 4; i++) {
+            for (int j = 0; j < 4; j++) {
+                System.out.println("Enter a num: ");
+                arr[i][j] = sc.nextInt();
+            }
+        }
+        for (int i = 0; i < arr.length; i++) {
+            for (int j = i+1; j < arr.length - 1; j++) {
+                if (arr[i][j] < arr[i][j]) {
+                    int temp = arr[i][j];
+                    arr[i][j] = arr[i][j];
+                    arr[i][j] = temp;
+                }
+            }
+        }
+        for(int i=0;i<arr.length;i++) {
+            for(int j=0;j<arr.length;j++){
+                System.out.print(arr[i][j] + " ");
+            }
+            System.out.println();
+        }
 
     }
 

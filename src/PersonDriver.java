@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Driver {
+public class PersonDriver {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         Person p[] = new Person[3];
