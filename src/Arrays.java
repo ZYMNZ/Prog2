@@ -5,7 +5,6 @@ public class Arrays {
     public static void main(String[] args) {
 
 
-
 //        int num[] = new int[10];
 //        Scanner sc = new Scanner(System.in);
 //
@@ -60,20 +59,7 @@ public class Arrays {
 //
         ///-------------------------------///
 
-//        for (arr[i] = 0; no < arr.length; no++) {
-//            flag = 0;
-//            for (int j = 2; j < no; j++) {
-//                if (no % i == 0) {
-//                    flag = 1;
-//                    break;
-//                }
-//            }
 //
-//            if (flag == 0)
-//                System.out.println(no + " is prime.");
-//            else
-//                System.out.println(no + " is not a prime");
-//        }
 
 //        int [] arr= new int[10];
 //        Scanner sc = new Scanner(System.in);
@@ -103,7 +89,7 @@ public class Arrays {
 //            if (arr[j] > max) arr[j] = max;
 //        }
 //        System.out.println(max + "\n" + min);
-    //WHY DOESNT WORK?
+        //WHY DOESNT WORK?
 
 
 //----------------------------------------------------//
@@ -146,7 +132,7 @@ public class Arrays {
 //            else {
 //                System.out.println("Didnt find your num!!");
 //            }
- //       }
+        //       }
 
         //--------------------------------------------------------//
 
@@ -203,7 +189,7 @@ public class Arrays {
 //        }
 //        for(int i=0;i<arr.length;i++) System.out.print(arr[i] + ",");
 
-      //.............................................................//
+        //.............................................................//
 
 //         int arr[][] = new int[3][4];
 //         int sum = 0;
@@ -281,28 +267,32 @@ public class Arrays {
 
         //-------------------------------------//
 
-        int arr[][] = new int[4][4];
-        for (int i = 0; i < 4; i++) {
-            for (int j = 0; j < 4; j++) {
-                System.out.println("Enter a num: ");
-                arr[i][j] = sc.nextInt();
-            }
-        }
-        for (int i = 0; i < arr.length; i++) {
-            for (int j = i+1; j < arr.length - 1; j++) {
-                if (arr[i][j] < arr[i][j]) {
-                    int temp = arr[i][j];
-                    arr[i][j] = arr[i][j];
-                    arr[i][j] = temp;
-                }
-            }
-        }
-        for(int i=0;i<arr.length;i++) {
-            for(int j=0;j<arr.length;j++){
-                System.out.print(arr[i][j] + " ");
-            }
-            System.out.println();
-        }
+//        int arr[][] = new int[4][4];
+//        for (int i = 0; i < 4; i++) {
+//            for (int j = 0; j < 4; j++) {
+//                System.out.println("Enter a num: ");
+//                arr[i][j] = sc.nextInt();
+//            }
+//        }
+//        for (int i = 0; i < arr.length; i++) {
+//            for (int j = i + 1; j < arr.length - 1; j++) {
+//                if (arr[i][j] < arr[i][j]) {
+//                    int temp = arr[i][j];
+//                    arr[i][j] = arr[i][j];
+//                    arr[i][j] = temp;
+//                }
+//            }
+//        }
+//        for (int i = 0; i < arr.length; i++) {
+//            for (int j = 0; j < arr.length; j++) {
+//                System.out.print(arr[i][j] + " ");
+//            }
+//            System.out.println();
+//        }
+
+
+
+
 
     }
 
