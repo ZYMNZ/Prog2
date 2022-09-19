@@ -6,7 +6,7 @@ public class Assignment1 {
         Scanner sc = new Scanner(System.in);
 
         //NUMBER 1
-
+//
 //        int arr[] = new int[10];
 //
 //        for (int i = 0; i < arr.length; i++) {
@@ -54,8 +54,8 @@ public class Assignment1 {
 //
 //            }
 //            System.out.println();
-//        }\
-//
+//        }
+
 
 
         //NUMBER 3
