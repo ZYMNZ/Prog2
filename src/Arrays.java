@@ -14,7 +14,7 @@ public class Arrays {
 //
 //        }
 //        System.out.println(num);
-        ////---------------------------------///
+        ////---------------------------------////
 
 //        int[] arr = new int[10];
 //        Scanner sc = new Scanner(System.in);

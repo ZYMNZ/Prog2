@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class armStrong {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter a num ya gay lmao");
+        System.out.println("Enter a num ");
         int num = sc.nextInt();
         int sum;
         int counter = 0;
