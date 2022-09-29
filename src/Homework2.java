@@ -6,30 +6,51 @@ public class Homework2 {
         Scanner sc = new Scanner(System.in);
 
         //number 1
-        int i;
-        int arr[] = new int[10];
-        for ( i = 0; i < arr.length; i++) {
-            System.out.println("please enter a number: ");
-            arr[i] = sc.nextInt();
-        }
+//        int i;
+//        int arr[] = new int[10];
+//        for ( i = 0; i < arr.length; i++) {
+//            System.out.println("please enter a number: ");
+//            arr[i] = sc.nextInt();
+//        }
+//
+//        int flag = 0;
+//        int sum = 0;
+//        for ( i = 0; i < arr.length; i++) {
+//            flag = 0;
+//            for (int j = 2; j < arr.length; j++) {
+//                if (arr[i] % j == 0) {
+//                    flag = 1;
+//                    break;
+//                }
+//            }
+//            if (flag == 0) System.out.println("prime number: " + arr[i]);
+//            //else System.out.println("Not a prime number: " + arr[i]);
+//        }
+//        int k;
+//            for ( k = 0; k < arr.length; k++) {
+//                for(int l=1 ; l<arr.length; l++) {
+//                    if(k % l == 0) {
+//                        sum += arr[k];
+//                    }
+//
+//                }
+//                if (sum == arr[k]) System.out.println("Perfect num: " + sum);
+//                //else System.out.println("Not a perfect num: " + sum);
+//            }
 
-        int flag = 0;
-        int sum = 0;
-        for ( i = 0; i < arr.length; i++) {
-            flag = 0;
-            if(arr[i] % 2 !=0){
-                flag = 1;
-                break;
-            }
-            sum+=arr[i];
-            if (sum == arr[i]) System.out.println("Perfect num: " + arr[i]);
-        }
-        if(flag ==0) System.out.println("Not a prime number: ");
-        else System.out.println("prime number" + arr[i]);
 
-        for (int j = 0; j < arr.length; j++) {
 
-        }
+
+        //---------------------------------//
+
+        //number 6
+//5.	WAP to find the Min and Max in 2D array and print their location accordingly
+
+        int arr[][] = new int[3][3];
+
+
+
+
 
 
 
@@ -54,3 +75,4 @@ public class Homework2 {
     }
 
 }
+
