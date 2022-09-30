@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 import java.util.*;
-public class gradedLabArrayLists {
+public class gradedLabArrayList {
 
     class A {
         public static void main(String args[]) {
