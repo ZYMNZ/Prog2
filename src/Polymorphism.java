@@ -3,7 +3,7 @@ class Vanier{
     int numOfStudents;
     float yearlyRevenue;
 
-   // publ
+
     public Vanier(String name) {
         this.name = name;
     }
