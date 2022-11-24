@@ -15,7 +15,7 @@ class school{
 
 
 
-public class arraylist {
+ class arraylist {
     public static void main(String[] args) {
         ArrayList<school> skl = new ArrayList<school>();
         Scanner sc = new Scanner(System.in);
