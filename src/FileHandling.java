@@ -80,7 +80,7 @@ public class FileHandling {
 //            System.out.println("Failed to delete the folder.");
 //        }
 
-       // try {
+            // try {
 //            File file = new File("C:\\Users\\yaman\\OneDrive\\Desktop\\test");
 //            file.mkdir();
 //            //File fl = new File("C:\\Users\\yaman\\OneDrive\\Desktop\\test.txt");
@@ -117,10 +117,10 @@ public class FileHandling {
 //            e.printStackTrace();
 //        }
 
-Scanner sc = new Scanner(System.in);
-        File file1 = new File("C:\\Users\\yaman\\OneDrive\\Desktop\\haha\\" + sc.next());
+            Scanner sc = new Scanner(System.in);
+            File file1 = new File("C:\\Users\\yaman\\OneDrive\\Desktop\\haha\\" + sc.next());
 
-        //File file2 = new File("C:\\Users\\yaman\\OneDrive\\Desktop\\transfer.txt");
+            //File file2 = new File("C:\\Users\\yaman\\OneDrive\\Desktop\\transfer.txt");
 //        FileWriter fileWriter1 = new FileWriter(file1);
 //        FileWriter fileWriter2 = new FileWriter(file2);
 //        Scanner sc1 = new Scanner(file1);
@@ -129,16 +129,6 @@ Scanner sc = new Scanner(System.in);
 //
 //        System.out.println("Enter your sentence: ");
 //        fileWriter1.write(sc.nextLine());
-
-
-
-
-
-
-
-
-
-
 
 
 
